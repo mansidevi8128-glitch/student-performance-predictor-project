@@ -2,8 +2,7 @@
 
 An end-to-end machine learning project that predicts a student's **math score** from their background and their reading and writing scores. It covers the full workflow: exploratory data analysis, a reusable preprocessing pipeline, comparison of 9 regression models with hyperparameter tuning, and a Flask web app that serves live predictions.
 
-**Live demo:** _add your deployed link here_
-
+   **Live demo:** [student-performance-predictor-project-25as.onrender.com](https://student-performance-predictor-project-25as.onrender.com)
 ![App screenshot](images/app_screenshot.png)
 
 ## Results at a glance
@@ -87,8 +86,8 @@ The code is modular, with custom exception handling (`src/exception.py`) and log
 ## How to run it locally
 
 ```bash
-git clone https://github.com/mansidevi8128-glitch/student-performance-predictor.git
-cd student-performance-predictor
+git clone https://github.com/mansidevi8128-glitch/student-performance-predictor-project.git
+cd student-performance-predictor-project
 python -m venv venv
 venv\Scripts\activate          # on Windows; use "source venv/bin/activate" on macOS/Linux
 pip install -r requirements.txt
