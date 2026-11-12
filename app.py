@@ -21,7 +21,7 @@ def read_score(field_name):
 @app.route("/", methods=["GET", "POST"])
 @app.route("/predictdata", methods=["GET", "POST"])
 def predict_datapoint():
-    if request.method == "GET":
+    if request.method != "POST":
         return render_template("home.html", form={})
 
     reading_score = read_score("reading_score")
