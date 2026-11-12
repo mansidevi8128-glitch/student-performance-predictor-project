@@ -1,10 +1,14 @@
-pandas
-numpy
+# Versions pinned so the saved model (artifacts/model.pkl) loads the same way everywhere.
+# It was trained with scikit-learn 1.3.2 and NumPy 1.x.
+pandas==2.1.4
+numpy==1.26.4
+scikit-learn==1.3.2
 seaborn
-scikit-learn
+matplotlib
 catboost
 xgboost
 dill
 Flask
+gunicorn
 
 #-e .
